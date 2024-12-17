@@ -1,9 +1,7 @@
-git add .gitattributes
+# Force PowerShell as the repository language
 *.ps1 linguist-language=PowerShell
-git commit -m "Force GitHub to recognize PowerShell as the main language"
-git push
 
-
-git add .gitattributes
-git commit -m "Mark Python files as vendored"
-git push
+# Mark all non-PowerShell files as vendored or ignored
+* linguist-vendored
+*.txt linguist-vendored
+*.md linguist-vendored
