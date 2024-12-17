@@ -1,3 +1,6 @@
+*.ps1 linguist-language=PowerShell
+
+
 # Function: Get-GreetingMessage
 # Description: Generates a personalized greeting message for a user.
 # Parameters:
