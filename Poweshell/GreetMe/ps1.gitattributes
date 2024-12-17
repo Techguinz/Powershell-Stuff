@@ -1,0 +1,3 @@
+git add .gitattributes
+git commit -m "Force GitHub to recognize PowerShell as the main language"
+git push
